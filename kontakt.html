@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="kontakt.css">
+</head>
+<body>
+<header>
+    <div id="menueleiste" class="nav-container">
+        <nav>
+            <img id="neptunias_abgrund_logo" src="img/logo_neptunias_abgrund_png.png" alt="Beschreibung des Bildes"
+                 width="140" height="140">
+            <ul>
+                <li><a href="index.html" id="startseite" target="_blank">Startseite</a></li>
+                <li><a href="karte.html" id="karte" target="_blank">Karte</a></li>
+                <li><a href="tiere.html" id="tiere" target="_blank">Tiere</a></li>
+                <li><a href="shop.html" id="shop" target="_blank">Shop</a></li>
+                <li><a href="kontakt.html" id="kontakt" target="_blank">Kontakt</a></li>
+            </ul>
+
+        </nav>
+    </div>
+</header>
+
+<h1>Kontaktformular</h1>
+
+<form action="SENDEADRESSE" id="ft-form" method="POST" accept-charset="UTF-8">
+    <fieldset>
+        <label>
+            Name
+        </label>
+        <input class="eingabe" type="text" name="Name" required>
+        <label>
+            E-Mail-Adresse
+        </label>
+        <input class="eingabe" type="email" name="E-Mail" required>
+
+        <label>
+            Ihre Nachricht
+        </label>
+        <textarea class="eingabe" rows="3" name="Nachricht" required></textarea>
+        <div>
+            <input id="checkbox" type="checkbox" name="Datenverarbeitung bestätigt" value="Ja" required>
+            <label>
+                Ich bestätige, dass ich mit der Verarbeitung meiner Eingaben zum Zwecke der Anfragebearbeitung, einverstanden bin.
+            </label>
+
+        </div>
+    </fieldset>
+    <div class="btns">
+        <input type="text" name="_gotcha" value="" style="display:none;">
+        <input id="button" type="submit" value="Absenden">
+    </div>
+</form>
+<h1>Impressum</h1>
+</body>
+</html>

@@ -1,0 +1,120 @@
+body {
+    background: linear-gradient(to bottom, #1A2346, #343f9a);
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    max-width: 1000px;
+   padding: 20px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #48578e;
+    text-align: center;
+}
+
+#neptunias_abgrund_logo {
+    margin-left: 15px;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #7d8ec4;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: #0044CC;
+}
+
+#menueleiste {
+    display: flex;
+    background-color: #6c78a4;
+    color: #48578e;
+    padding: 10px 20px;
+    margin-outside: 10px;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    font-weight: bolder;
+    border-radius: 6px;
+    margin-top: 7px;
+    margin-bottom: 15px;
+    flex-direction: column;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#karte, #tiere, #startseite, #kontakt {
+    display: inline-block;
+    background-color: #9daddf;
+    color: #48578e;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bolder;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+#shop {
+    display: inline-block;
+    background-color: #48578e;
+    color: #9daddf;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bolder;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+a{
+    text-decoration:none;
+}
+
+div.gallery {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    border: 3px solid #141C38;
+    float: left;
+    width: 183px;
+}
+
+div.gallery:hover {
+    border: 3px solid #303958;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    color: #7d8ec4;
+    height: 145px;
+}
+
+div.desc2 {
+    padding: 15px;
+    text-align: center;
+    color: #7d8ec4;
+    height: 90px;
+}
