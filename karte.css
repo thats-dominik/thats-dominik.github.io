@@ -87,4 +87,59 @@ ul {
 
 #karte_zoo {
     margin-top: 5px;
+    margin-left: 26%;
+}
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 10px;
+    }
+
+    #neptunias_abgrund_logo {
+        margin: 10px;
+    }
+
+    #karte_zoo {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #menueleiste {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    ul {
+        flex-wrap: wrap;
+    }
+
+    #startseite,
+    #tiere,
+    #shop,
+    #kontakt,
+    #karte {
+        margin-bottom: 5px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    #karte_zoo {
+        margin-top: 5px;
+    }
+
+    #content_1,
+    #content_2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    p {
+        font-size: 14px;
+    }
 }

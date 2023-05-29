@@ -118,3 +118,51 @@ div.desc2 {
     color: #7d8ec4;
     height: 90px;
 }
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 10px;
+    }
+
+    #neptunias_abgrund_logo {
+        margin: 10px;
+    }
+
+    #menueleiste {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    ul {
+        flex-wrap: wrap;
+    }
+
+    #karte,
+    #tiere,
+    #shop,
+    #kontakt,
+    #startseite {
+        margin-bottom: 5px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    #shop2,
+    #tiere2 {
+        margin-bottom: 5px;
+        margin-right: 5px;
+        font-size: 12px;
+    }
+
+    #content_1,
+    #content_2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
